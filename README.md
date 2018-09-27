@@ -1,8 +1,8 @@
 # koa-practice
 
-### KOA框架原型
+### KOA框架原型
 
-基于Node.js(v8.11.2)、npm(5.6.0)、Koa(2.5.2)、MySQL、React(16.5.2)开发，使用来创建项目原型〜
+基于Node.js(v8.11.2)、npm(5.6.0)、Koa(2.5.2)、MySQL、React(16.5.2)开发，使用来创建项目原型〜
 
 #### 项目地址
 https://github.com/meizikeai/koa-practice.git
@@ -12,11 +12,11 @@ https://github.com/meizikeai/koa-practice.git
 | 路径           | 描述                       | 详情        |
 | -------------- | -------------------------- | ----------- |
 | bin            | 启动文件                   | -           |
-| client         | 客户端目录（reactjs） | 附件        |
+| client         | 客户端目录（reactjs） | 附件        |
 | configs        | 配置目录                   | -           |
-| logs           | 日志目录                  | -           |
-| middleware     | 中间件目录                | -           |
-| pm2            | pm2配置文件               | -           |
+| logs           | 日志目录                  | -           |
+| middleware     | 中间件目录                | -           |
+| pm2            | pm2配置文件               | -           |
 | public         | 静态文件目录               | favicon.ico |
 | servers        | 服务端目录                 | 附件        |
 | views          | HTML文件                   | -           |
@@ -28,27 +28,27 @@ https://github.com/meizikeai/koa-practice.git
 
 #### 开发环境
 
-开发环境需要依赖ESLint，请使用支持它的编辑器，如[开发神器](https://code.visualstudio.com/)
+开发环境需要依赖ESLint，请使用支持它的编辑器，如[开发神器](https://code.visualstudio.com/)
 
-- 克隆项目
+- 克隆项目
   - `$ git clone https://github.com/meizikeai/koa-practice.git`
 
-- 安装依赖
+- 安装依赖
   - `$ cd koa-practice && npm i`
 
-- 启动项目
+- 启动项目
   - // 启动后通过 http://localhost:10086 访问
-  - `$ npm run start                // 启动项目-连接测试环境的数据库 - 开发使用`
+  - `$ npm run start                // 启动项目-连接测试环境的数据库 - 开发使用`
   - `$ npm run development          // 启动项目-测试环境`
   - `$ npm run production           // 启动项目-正式环境`
 
 - 发布部署
-  - // 发布部署依赖shipit-cli，请执行 npm install -g shipit-cli
+  - // 发布部署依赖shipit-cli，请执行 npm install -g shipit-cli
   - `$ npm run deploy:dev     // 发布到测试环境`
   - `$ npm run deploy         // 发布到正式环境`
 
 - 部署回滚
-  - // 从shipitfile.js配置文件来看，目前回滚只支持一个版本，发布部署时请谨慎操作
+  - // 从shipitfile.js配置文件来看，目前回滚只支持一个版本，发布部署时请谨慎操作
   - `$ npm run rollback:dev   // 回滚至上一个版本（测试环境）`
   - `$ npm run rollback       // 回滚至上一个版本（正式环境）`
 
@@ -56,16 +56,16 @@ https://github.com/meizikeai/koa-practice.git
 
 - 测试服务器
   - 用户@地址：work@192.168.1.1
-  - Git分支：test
+  - Git分支：test
   - 访问地址：http://localhost:10086
 - 线上服务器
   - 用户@地址：work@192.168.1.1
-  - Git分支：master
+  - Git分支：master
   - 访问地址：http://localhost:10086
 
 ---
 
-#### 附件
+#### 附件
 
 ##### client目录说明
 
